@@ -1,0 +1,246 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #f8f9fe;
+    
+}
+
+.nav{
+    width: 100%;
+    background-color:  #42228f;
+    position: fixed;
+}
+/********************************* Navigation Style  **********************/
+.nav_items{
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;         
+}
+#tit h1{
+    color: white;
+    letter-spacing:-1px;
+    font-family: 'Poppins';
+
+}
+#menu{
+    display: flex;
+    flex-direction: row;  
+}
+#menu div{
+    display: flex;
+    flex-wrap: wrap;    
+}
+#menu a{
+    text-decoration: none;    
+}
+#menu div a{
+    padding: 25px 8px;
+    color: white;
+}
+
+/****************************************** ABOUT HEADER **************************/
+.header_{
+    width: 100%;
+    padding: 9% 0% 4% 0%;
+    background-color: #42228f;
+    display: flex;
+    flex-flow: wrap row;
+}
+.header_about{
+        width: 80%;
+        margin: 0% auto;
+        flex-wrap: wrap;
+    
+}
+.header_about div span{
+
+    color: white;
+    font-size: 7vh;
+    font-weight: 600;
+}
+
+/*******************************************  SMITH SECTION DETAIL *********************/
+.about_smith{
+    width: 100%;    
+    padding: 5% 0%;
+
+}
+.smith_detail{
+    width: 90%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: row ;
+    
+}
+#long{
+
+        width: 70%;
+        padding:0% 2%;
+        font-size: 1.2vw;
+    }
+#short
+{
+        width: 30%;
+        text-align: center;
+}
+
+#short div img{         
+     width: 100%;
+     height: auto;        
+}
+#short div span{         
+    font-weight: 600;        
+}
+
+
+/**************************************  SERVICES SECTION *********************************/
+.skills{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5% 0%;
+}
+.skills div span{
+    font-size: 4rem;
+    text-align: center;
+ 
+}
+.skills_list_1{
+
+    width: 90%;
+    margin: 5% auto 0% auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.skills_list_1 div{
+    padding: 0% 5%;
+}
+.skills_list_1  div  div h1 , .skills_list_1  div  div p{
+    margin: 0%;
+}
+.effect div{
+    padding: 3% 5%;
+}
+.al{
+font-size: 5rem;
+ color: #42228f;
+}
+
+
+/******************************************  SERVICE MEMBER SECTION *******************************/
+.team img{
+    width: 60%;
+    border-radius: 50%;
+    
+}
+.brclor{    
+    background-color: white;
+    padding: 5% 0%;
+    
+}
+
+
+/********************************************* SECTION FOOTER ABOVE **********************************/
+
+.footer_above{
+    padding: 5% 0px;
+    background-color: #f8f9fe;
+}
+.footerabove_items{
+    width: 85%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.footerabove_items div button
+{
+    width: 20em;
+    font-weight: 700;
+    padding: 5% 0%;
+    margin: 20% 0%;
+    color: white;
+    background-color: #42228f;
+}
+.footerabove_items div span
+{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+/************************************************** FOOTER *********************************************  */
+.footer{
+
+    width: 100%;
+    background-color: black;
+     display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+.footer span{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.footer div i{
+
+color: white;
+font-size: 2rem;
+margin: 0.5% 0.5% 0.2% 0.5%;
+
+}
+
+/******************************************* RESPONSIVE **************************************/
+@media only screen and (max-width: 700px)
+{
+    .nav_items{
+        width: 100%;
+        display: flex;
+        flex-flow: wrap column;
+        align-content: center;  
+        
+    }
+    #menu {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }       
+ .nav{
+    position: static;
+   }
+   .header_{
+        flex-flow: column;
+        text-align: center;
+   }
+   .skills div span{
+    font-size: 2rem;
+   }
+   .smith_detail{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+     }
+     .skills_list_1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }   
+    #long{
+        font-size: 1rem;
+    }
+}
+
+/* *******************************************************END*************************************************/
+
+

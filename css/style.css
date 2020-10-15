@@ -1,0 +1,299 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.nav {
+    width: 100%;
+    background-color: #42228f;
+    position: fixed;
+}
+
+/************************************************  Navigation Style **********************************************/
+.nav_items {
+    width: 80%;
+    margin: 0% auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-between;
+}
+
+#tit h1 {
+    color: white;
+    letter-spacing: -1px;
+    font-family: 'Poppins';
+
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu div a {
+    padding: 25px 8px;
+    color: white;
+}
+
+/***************************************************** HEADER *********************************************/
+.header_d {
+
+    background-color: #42228f;
+    padding: 10% 0px;
+
+}
+
+.header_items {
+    width: 85%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_items div p {
+    text-align: center;
+    color: white;
+}
+
+.header_items div span {
+    font-size: 4vw;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.header_items div button {
+    width: 10em;
+    font-weight: 700;
+    padding: 10% 0%;
+    margin: 20% 0%;
+}
+
+
+
+/*********************************************************** KNOW More SECTION ****************************************/
+.section_know {
+    background-color: #f8f9fe;
+    padding: 7% 0px;
+}
+
+.section_items {
+    width: 50%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section_items a {
+    color: blue;
+}
+
+/******************************************************* SKILLS SECTTION **************************************/
+.skills {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5% 0%;
+}
+
+.skills div span {
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.skills_list_1 {
+
+    width: 90%;
+    margin: 5% auto 0% auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.skills_list_1 div {
+    padding: 0% 5%;
+}
+
+.fa-html5 {
+    font-size: 5rem;
+
+    color: #fd7e15;
+}
+
+.fa-css3-alt {
+    font-size: 5rem;
+    color: #254bdd;
+}
+
+.fa-js {
+    font-size: 5rem;
+    color: #f3bf4f;
+}
+
+.skills_list_1 div div h1,
+.skills_list_1 div div p {
+    margin: 0%;
+}
+
+.fa-react {
+    font-size: 5rem;
+    color: #54c0d0;
+}
+
+.fa-sass {
+    font-size: 5rem;
+    color: #c76395;
+}
+
+.fa-wordpress {
+    font-size: 5rem;
+    color: #21759a;
+}
+
+/****************************************************************** WELCOME SECTION ****************************************/
+
+.welcome_e {
+    background: linear-gradient(90deg, rgba(72, 35, 136, 0.7), #5e0ab7d2), url(../img/welcome_back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/*****************************************************************SERVICES SECTION********************************************/
+.effect div {
+    padding: 3% 5%;
+}
+
+.al {
+    font-size: 5rem;
+}
+
+.colr {
+    background-color: #42228f;
+    color: white;
+}
+
+
+/******************************************************************TESTINOMIAL SECTION  *********************************************/
+
+.testnomial div img {
+    border-radius: 5% 5% 0% 0%;
+}
+
+.testnomial div h3 {
+    color: white;
+}
+
+.testnomial div h4 {
+    color: white;
+    margin-top: -15px;
+    ;
+}
+
+/*********************************************************** SECTION FOOTER ABOVE ********************************************/
+
+.footer_above {
+    padding: 5% 0px;
+    background-color: #f8f9fe;
+}
+
+.footerabove_items {
+    width: 85%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footerabove_items div button {
+    width: 20em;
+    font-weight: 700;
+    padding: 5% 0%;
+    margin: 20% 0%;
+    color: white;
+    background-color: #42228f;
+}
+
+.footerabove_items div span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+/**************************************************** FOOTER **************************************************/
+.footer {
+
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer span {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.footer div i {
+
+    color: white;
+    font-size: 2rem;
+    margin: 0.5% 0.5% 0.2% 0.5%;
+
+}
+
+/***************************************************** RESPONSIVE ***************************************************/
+@media only screen and (max-width: 600px) {
+    .nav_items {
+        width: 100%;
+        display: flex;
+        flex-flow: wrap column;
+        align-content: center;
+
+    }
+
+    #menu {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skills_list_1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav {
+        position: static;
+    }
+
+
+}
+
+/* *******************************************************END*************************************************/
